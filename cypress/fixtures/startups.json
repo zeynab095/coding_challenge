@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Biotechnix",
+    "shortDescription": "Prosthetics corporation allied with Dr. Octopus to control mutilated influential people",
+    "dateFounded": "2002-01-01 00:00:00+00",
+    "employees": "<10",
+    "totalFunding": 102,
+    "currentInvestmentStage": "Series A",
+    "technologyReadiness": "Prototype Stage",
+    "legalEntity": "Sp. z o.o.",
+    "usps": []
+  },
+  {
+    "id": 2,
+    "name": "Fujinet",
+    "shortDescription": "Tech company that began as a small developer of CDs and disk readers, but quickly became a household name.",
+    "dateFounded": "2021-01-01 00:00:00+00",
+    "employees": "<100",
+    "totalFunding": 250,
+    "currentInvestmentStage": "Seed - VC",
+    "technologyReadiness": "Idea Stage",
+    "legalEntity": "Inc.",
+    "usps": []
+  }
+]

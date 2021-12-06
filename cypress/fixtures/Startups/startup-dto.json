@@ -1,0 +1,30 @@
+{
+  "id": 1,
+  "dateCreated": "2020-12-22T13:00:00.000Z",
+  "name": "Biotechnix",
+  "country": "Pakistan",
+  "dateFounded": "2020-12-22T13:00:00.000Z",
+  "employees": "<100",
+  "legalEntity": "",
+  "mainContact": "",
+  "additionalContacts": "",
+  "website": "",
+  "referenceCustomers": "Russian Federation, China",
+  "shortDescription": "Prosthetics corporation allied with Dr. Octopus to control mutilated influential people",
+  "description": "Biotechnix technology enables precise capture and analysis of particles. We make possible end-to-end results: particle collection from gas volumes and from surfaces; micro-aerodynamic particle concentration: and delivery to particle analyzers to determine biological, physical and chemical properties.",
+  "technologyReadiness": "Early Market Stage",
+  "investors": "Peters Ventures",
+  "currentInvestmentStage": "Series A",
+  "totalFunding": 10.2,
+  "usps": [
+    {
+      "id": 1,
+      "description": "Very Unique Selling Proposition that is so good that all the countries want to buy it",
+      "startupId": 1
+    }
+  ],
+  "files": [
+    { "id": 1, "name": "example.pdf", "type": "Other" },
+    { "id": 2, "name": "Hobbit.txt", "type": "Other" }
+  ]
+}

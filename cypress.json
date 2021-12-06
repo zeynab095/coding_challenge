@@ -1,0 +1,9 @@
+{
+  "viewportHeight": 1080,
+  "viewportWidth": 1920,
+  "video": false,
+  "retries": {
+    "runMode": 3,
+    "openMode": 2
+  }
+}
