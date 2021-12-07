@@ -55,4 +55,8 @@ Now, extend the `StartupList` component so that it fetches the list of startups 
 
 It might be that the design is already a little bit older, so make sure that your implementations complies to the existing Cypress test suite `cypress/integration/StartupList.spec.js`. You can run the tests with `npx cypress open` and then clicking on the test.
 
+### Complete the Challenge
+
+Complete the challenge by committing you changes and pushing them to your forked repository. Of course you are always free to commit and push in between.
+
 **Good luck & have fun!!**
