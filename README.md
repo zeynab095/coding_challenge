@@ -15,7 +15,7 @@ If you have everything in place, first get the backend up and running and then s
 
 ## Setup Nodejs Backend
 
-To populate the frontend with some data a backend needs to be setup. Therefore the following steps have to be executed:
+To populate the frontend with some data, a backend needs to be setup. Therefore the following steps have to be executed:
 
 1. Pull the docker image `27pilots/coding-challenge-backend`
 2. Run the image and bind the port `8000`
@@ -39,7 +39,7 @@ After successfully compiling you can access the app on http://localhost:3000.
 
 ## The Challenge
 
-An important part of the application is to show a list of startups with some basic information. Please implement this startup list roughly according to the design. A list of startups can be retreived from the backend at this endpoint: `http:localhost:8000/api/startups`. The following steps will give you some guidance.
+An important part of the application is to show a list of startups with some basic information. Please implement this startup list roughly according to the design. A list of startups can be retreived from the backend at this endpoint: `http://localhost:8000/api/startups`. The following steps will give you some guidance.
 
 ### Retreive Data
 
@@ -57,6 +57,6 @@ It might be that the design is already a little bit older, so make sure that you
 
 ### Complete the Challenge
 
-Complete the challenge by committing you changes and pushing them to your forked repository. Of course you are always free to commit and push in between.
+Complete the challenge by committing your changes and pushing them to your forked repository. Of course you are always free to commit and push in between.
 
 **Good luck & have fun!!**
