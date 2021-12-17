@@ -17,10 +17,9 @@
 import "./commands";
 
 beforeEach(() => {
-
   // setup request intercepts
 
-  cy.intercept("GET", "http://localhost:3000/api/startups?*", (req) => {
+  cy.intercept("GET", "http://localhost:3000/api/startups*", (req) => {
     req.reply({
       statusCode: 200, // default
       fixture: "startups.json",
@@ -33,22 +32,6 @@ beforeEach(() => {
       fixture: "Startups/startup-dto.json",
     });
   }).as("getStartupById");
-
-  cy.intercept("PUT", `http://localhost:3000/api/startups/1`, (req) => {
-    req.reply({
-      statusCode: 200, // default
-      body: {},
-    });
-  }).as("updateStartup");
-  cy.intercept(
-    "PUT",
-    `http://localhost:3000/api/objectives?projectId=1`,
-    (req) => {
-      req.reply({
-        statusCode: 200, // default
-      });
-    }
-  ).as("updateObjectives");
 });
 
 // Alternatively you can use CommonJS syntax:
